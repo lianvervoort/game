@@ -8,7 +8,7 @@
   var context = canvas.getContext('2d');
 
   var current = {
-    color: 'black'
+    color: 'white'
   };
   var drawing = false;
 
