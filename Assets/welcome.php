@@ -25,7 +25,7 @@ $naam = $_POST['naam'];
 				else 
 				{
 					echo "Graag eerst je naam invullen";							// Anders een link naar index
-					echo '<a href=index.html> "Terug naar index"</a>';
+					echo '<a href=form.html> "Terug naar index"</a>';
 				}
 			?>
 		</div>
