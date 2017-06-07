@@ -38,6 +38,7 @@ ul {
   margin: 0;
   padding: 0;
   width: 100%;
+   
 }
 
 .page {
@@ -49,7 +50,11 @@ ul {
 /* Login Page */
 
 .login.page {
-  background-color: #000;
+  background: url(img/bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .login.page .form {
