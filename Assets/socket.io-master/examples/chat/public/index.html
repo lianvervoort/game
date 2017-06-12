@@ -6,8 +6,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	
-  <ul class="pages">
+ <ul class="pages">
     <li class="chat page">
       <div class="chatArea">
         <ul class="messages"></ul>
@@ -20,10 +19,15 @@
 		<h3 class="title" data-text="NICKNAME?">NICKNAME?</h3>
 		<input class="usernameInput" type="text" maxlength="14" />
       </div>
+	  <div id="star">
+			<canvas id="canvas" width="1350px" height="580px" onload="star()">
+			</canvas>
+		</div>
     </li>
   </ul>
 
   <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="eigenlibrary.js"></script>
   <script src="/socket.io/socket.io.js"></script>
   <script src="/main.js"></script>
 </body>
