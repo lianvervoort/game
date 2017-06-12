@@ -2,9 +2,8 @@ $(function() {
   var FADE_TIME = 150; // ms
   var TYPING_TIMER_LENGTH = 400; // ms
   var COLORS = [
-    '#e21400', '#91580f', '#f8a700', '#f78b00',
-    '#58dc00', '#287b00', '#a8f07a', '#4ae8c4',
-    '#3b88eb', '#3824aa', '#a700ff', '#d300e7'
+    '#c42069', '#59052b', '#007b92', '#23536b',
+    
   ];
 
   // Initialize variables
@@ -229,7 +228,7 @@ $(function() {
   socket.on('login', function (data) {
     connected = true;
     // Display the welcome message
-    var message = "Welcome to Socket.IO Chat – ";
+    var message = "Welcome to the Chat – ";
     log(message, {
       prepend: true
     });
@@ -280,3 +279,35 @@ $(function() {
   });
 
 });
+
+$(document).ready(function () {
+
+  function second_passed() {
+    $('.clock').removeClass('is-off');
+  }
+  setTimeout(second_passed, 2000)
+
+  $('.switcher').on('click', function(e) {
+    e.preventDefault();
+    $('.screen').toggleClass('glitch');
+  });
+
+
+  var newDate = new Date();
+  newDate.setDate(newDate.getDate());
+
+  setInterval( function() {
+
+    var hours    = new Date().getHours();
+    var seconds  = new Date().getSeconds();
+    var minutes  = new Date().getMinutes();
+
+    var realTime = ( hours < 10 ? '0' : '' ) + hours + ' : ' + ( minutes < 10 ? '0' : '' ) + minutes + ' : ' + ( seconds < 10 ? '0' : '' ) + seconds
+
+    $('.time').html(realTime);
+    $('.time').attr('data-time', realTime);
+
+  }, 1000);
+
+});
+
