@@ -95,6 +95,9 @@ ul {
   margin: 0 auto;
 }
 
+
+
+
 .glitch {
   font-size: 25px;
   color: white;
@@ -427,10 +430,10 @@ ul {
   width: 48px;
 }
 
-.color.white { background-color: #c42069; }
-.color.red { background-color: #59052b; }
-.color.green { background-color: #007b92; }
-.color.blue { background-color: #23536b; }
-.color.yellow { background-color: #123140; }
-.color.pink { background-color: #2db996; }
-.color.black { background-color: #236b59; }
+.color.darkturquoise { background-color: darkturquoise; }
+.color.teal { background-color: teal; }
+.color.lightseagreen { background-color: lightseagreen; }
+.color.darkslategray { background-color: darkslategray; }
+.color.crimson { background-color: crimson; }
+.color.maroon { background-color: maroon; }
+.color.firebrick { background-color: firebrick ; }
