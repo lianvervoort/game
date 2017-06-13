@@ -27,6 +27,7 @@ h3 {
     border-width: 1px;
 	border-color: #98eaf9;
 	background-color: #12181a;
+	color: white;
 }
 
 html, body {
@@ -309,8 +310,6 @@ ul {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: 64%;
-
-
 }
 
 /* Font */
@@ -328,8 +327,6 @@ ul {
   font-size: 100%;
   /*position: absolute;*/
   /*z-index: 2;*/
-
-
 }
 
 .log {
@@ -342,14 +339,13 @@ ul {
 /* Messages */
 
 .chatArea {
-  height: 80%;
+  height: 70%;
   padding-bottom: 70px;
   width: 25%;
-  right: 0;
-  top: 20%;
+  right: 20px;
+  top: 30%;
   position: absolute;
   z-index: 2;
-
 }
 
 .messages {
@@ -383,6 +379,7 @@ ul {
   float:right;
   margin-top: 43%;
   z-index: 2;
+  margin-right: 20px;
 }
 
 /* scrollbar */
@@ -397,9 +394,6 @@ ul {
 ::-webkit-scrollbar-thumb {
     background-color: #2c3843;
 }
-
-
-
 
 /**
  * Canvas
@@ -416,6 +410,28 @@ ul {
   z-index: 1;
 }
 
+.mission {
+	top: -50%;
+	left: 20px;
+	color: white;
+	position: abslute;
+	border-style: solid;
+    border-width: 1px;
+	border-color: #98eaf9;
+	background-color: #12181a;
+	padding-left: 10px;
+	padding-right: 0px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	font-family: future;
+	font-size: 20px;
+}
+
+p{
+	font-size: 12px;
+	font-family: future;
+	
+}
 .colors {
   position: fixed;
   bottom: 10%;
