@@ -9,7 +9,7 @@ $(function() {
 
 
   var current = {
-    color: 'white'
+    color: 'crimson'
   };
   var drawing = false;
 
