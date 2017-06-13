@@ -95,6 +95,9 @@ ul {
   margin: 0 auto;
 }
 
+
+
+
 .glitch {
   font-size: 25px;
   color: white;
@@ -427,10 +430,10 @@ ul {
   width: 48px;
 }
 
-.color.white { background-color: white; }
-.color.red { background-color: red; }
-.color.green { background-color: green; }
-.color.blue { background-color: blue; }
-.color.yellow { background-color: yellow; }
-.color.pink { background-color: pink; }
-.color.black { background-color: black; }
+.color.darkturquoise { background-color: darkturquoise; }
+.color.teal { background-color: teal; }
+.color.lightseagreen { background-color: lightseagreen; }
+.color.darkslategray { background-color: darkslategray; }
+.color.crimson { background-color: crimson; }
+.color.maroon { background-color: maroon; }
+.color.firebrick { background-color: firebrick ; }
