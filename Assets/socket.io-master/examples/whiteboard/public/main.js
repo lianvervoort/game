@@ -2,13 +2,15 @@
 
 (function() {
 
+
   var socket = io();
   var canvas = document.getElementsByClassName('whiteboard')[0];
   var colors = document.getElementsByClassName('color');
   var context = canvas.getContext('2d');
 
+
   var current = {
-    color: 'black'
+    color: 'white'
   };
   var drawing = false;
 
@@ -32,7 +34,7 @@
     context.moveTo(x0, y0);
     context.lineTo(x1, y1);
     context.strokeStyle = color;
-    context.lineWidth = 2;
+    context.lineWidth = 3;
     context.stroke();
     context.closePath();
 
