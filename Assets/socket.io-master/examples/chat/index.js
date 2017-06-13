@@ -12,6 +12,13 @@ server.listen(port, function () {
 // Routing
 app.use(express.static(__dirname + '/public'));
 
+
+//Whiteboard
+// function onConnection(socket){
+//   socket.on('drawing', (data) => socket.broadcast.emit('drawing', data));
+//
+// }
+
 // Chatroom
 
 var numUsers = 0;
@@ -45,6 +52,11 @@ io.on('connection', function (socket) {
       numUsers: numUsers
     });
   });
+
+
+    socket.on('drawing', (data) => socket.broadcast.emit('drawing', data));
+
+
 
   // when the client emits 'typing', we broadcast it to others
   socket.on('typing', function () {

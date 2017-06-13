@@ -9,10 +9,6 @@
   var context = canvas.getContext('2d');
 
 
-
-
-
-
   var current = {
     color: 'white'
   };
