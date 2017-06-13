@@ -33,6 +33,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 
 ul {
@@ -312,7 +313,7 @@ ul {
 /* Font */
 
 .messages {
-  font-size: 150%;
+  font-size: 130%;
   color: white;
   border-style: solid;
   border-width: 1px;
@@ -377,7 +378,7 @@ ul {
   padding-left: 10px;
   width: 25%;
   float:right;
-  margin-top: 45%;
+  margin-top: 43%;
   z-index: 2;
 }
 
