@@ -1,5 +1,5 @@
 /* ====================================
-Canvas stars
+Canvas stars, aanroepen in HTML. Canvas verwerken in HTML.
 ==================================== */
 
 window.onload = init();
