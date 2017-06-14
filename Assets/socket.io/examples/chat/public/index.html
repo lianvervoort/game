@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ASML Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <ul class="pages">
+     <li class="chat page">
+
+      <canvas class="whiteboard" ></canvas>
+      <div class="colors"><br>
+        <div class="color crimson"></div>
+        <div class="color firebrick"></div>
+        <div class="color maroon"></div>
+        <div class="color darkturquoise"></div>
+        <div class="color lightseagreen"></div>
+        <div class="color teal"></div>
+        <div class="color darkslategray"></div>
+      </div>
+
+      <div class="chatArea">
+          <div class="mission">
+             Mission:<br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+	        <ul class="messages"></ul>
+          <input class="inputMessage" placeholder="Type here..."/>
+	     </div>
+
+	   <h2 class="glitch" data-text="ROOM 1.1">ROOM 1.1</h2>
+	   <div id="tekst" ><p> Dit is een demo versie. v.1.0 </p></div>
+	   </li>
+    <li class="login page">
+      <div class="form">
+		<h3 class="title" data-text="NICKNAME?">NICKNAME?</h3>
+		<input class="usernameInput" type="text" maxlength="14" />
+      </div>
+	  <div id="star">
+			<canvas id="canvas" width="1350px" height="580px">
+			</canvas>
+		</div>
+    </li>
+  </ul>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="eigenlibrary.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/main.js"></script>
+</body>
+</html>
