@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Socket.IO Chat Example</title>
+  <title>ASML Game</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
  <ul class="pages">
-    <li class="chat page">
+     <li class="chat page">
 
       <canvas class="whiteboard" ></canvas>
       <div class="colors"><br>
@@ -18,24 +18,22 @@
         <div class="color lightseagreen"></div>
         <div class="color teal"></div>
         <div class="color darkslategray"></div>
-
-
-
       </div>
-
+		 
       <div class="chatArea">
-        <ul class="messages"></ul>
-      </div>
+	        <ul class="messages"></ul>
+	     </div>
       <input class="inputMessage" placeholder="Type here..."/>
 	   <h2 class="glitch" data-text="ROOM 1.1">ROOM 1.1</h2>
-    </li>
+	   <div id="tekst" ><p> Dit is een demo versie. v.1.0 </p></div>
+	   </li>
     <li class="login page">
       <div class="form">
 		<h3 class="title" data-text="NICKNAME?">NICKNAME?</h3>
 		<input class="usernameInput" type="text" maxlength="14" />
       </div>
 	  <div id="star">
-			<canvas id="canvas" width="1350px" height="580px" onload="star()">
+			<canvas id="canvas" width="1350px" height="580px">
 			</canvas>
 		</div>
     </li>

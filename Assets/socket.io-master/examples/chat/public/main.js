@@ -98,14 +98,10 @@ $(function() {
     canvas.height = window.innerHeight;
   }
 
-
-
-
-
   var FADE_TIME = 150; // ms
   var TYPING_TIMER_LENGTH = 400; // ms
   var COLORS = [
-    '#c42069', '#59052b', '#007b92', '#23536b',
+    '#00CED1', '#008080', '#20B2AA', '#2F4F4F', '#DC143C' , '#800000' , '#B22222' ,
     
   ];
 
