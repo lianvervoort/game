@@ -430,7 +430,13 @@ ul {
 p{
 	font-size: 12px;
 	font-family: future;
-	
+	color: white;
+}
+
+#tekst{
+	left: 20px;
+	position: absolute;
+	top: 12%;
 }
 .colors {
   position: fixed;
