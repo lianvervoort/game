@@ -1,1 +1,1 @@
-web: node /examples/chat/index.js
+web: node game/examples/chat/index.js
