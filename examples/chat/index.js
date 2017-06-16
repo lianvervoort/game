@@ -5,13 +5,11 @@ var server = require('http').createServer(app);
 var io = require('../..')(server);
 var port = process.env.PORT || 3000;
 
-server.listen(process.env.PORT || 3000, function(){
-  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
-});
 
-// server.listen(port, function () {
-//   console.log('Server listening at port %d', port);
-// });
+
+server.listen(port, function () {
+  console.log('Server listening at port %d', port);
+});
 
 // Routing
 app.use(express.static(__dirname + '/public'));
