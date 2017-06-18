@@ -15,11 +15,9 @@ server.listen(port, function () {
 app.use(express.static(__dirname + '/public'));
 
 
-//Whiteboard
-// function onConnection(socket){
-//   socket.on('drawing', (data) => socket.broadcast.emit('drawing', data));
-//
-// }
+
+
+
 
 // Chatroom
 
