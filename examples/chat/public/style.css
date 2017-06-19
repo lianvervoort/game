@@ -42,6 +42,12 @@ ul {
   word-wrap: break-word;
 }
 
+p{
+	font-size: 12px;
+	font-family: future;
+	color: white;
+}
+
 /* Pages */
 
 .pages {
@@ -58,7 +64,7 @@ ul {
   z-index: 3;
 }
 
-/* Login Page */
+/* Nickname Page */
 
 .login.page {
   background: url(img/bg.png) no-repeat center center fixed; 
@@ -95,9 +101,6 @@ ul {
   width: 400px;
   margin: 0 auto;
 }
-
-
-
 
 .glitch {
   font-size: 25px;
@@ -456,17 +459,16 @@ ul {
 	/*font-size: 20px;*/
 /*}*/
 
-p{
-	font-size: 12px;
-	font-family: future;
-	color: white;
-}
+
 
 #tekst{
 	left: 20px;
 	position: absolute;
 	top: 12%;
 }
+
+/* Tekenkleur*/
+
 .colors {
   position: fixed;
   bottom: 10%;
