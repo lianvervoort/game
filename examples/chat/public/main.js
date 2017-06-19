@@ -115,6 +115,10 @@ $(function() {
 
 
 
+
+
+
+
  //Chat
 
   var FADE_TIME = 150; // ms

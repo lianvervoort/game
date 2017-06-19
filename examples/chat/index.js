@@ -15,10 +15,6 @@ server.listen(port, function () {
 app.use(express.static(__dirname + '/public'));
 
 
-
-
-
-
 // Chatroom
 
 var numUsers = 0;
