@@ -6,6 +6,8 @@
   box-sizing: border-box;
 }
 
+
+/*HTML set up*/
 html {
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
@@ -61,7 +63,7 @@ ul {
 /* Login Page */
 
 .login.page {
-  background: url(img/bg.png) no-repeat center center fixed; 
+  background: url(img/bg.png) no-repeat center center fixed;
   background-color: #010103;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -97,7 +99,17 @@ ul {
 }
 
 
+.login.page .usernameInput {
+  font-size: 200%;
+  letter-spacing: 3px;
+}
 
+.login.page .title, .login.page .usernameInput {
+  color: #fff;
+  font-weight: 100;
+}
+
+/*Glitch effect with keyframes*/
 
 .glitch {
   font-size: 25px;
@@ -291,49 +303,11 @@ ul {
   animation: noise-anim-2 3s infinite linear alternate-reverse;
 }
 
-.login.page .usernameInput {
-  font-size: 200%;
-  letter-spacing: 3px;
-}
 
-.login.page .title, .login.page .usernameInput {
-  color: #fff;
-  font-weight: 100;
-}
-
-/*Mission*/
-
-.mission{
-  /*padding-top: 5%;*/
-  /*padding-bottom: 5%;*/
-  margin-bottom: 5%;
-  /*float: right;*/
-  height: 35%;
-  width:100%;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #98eaf9;
-  background-color: #12181a;
-  /*padding: 10px 20px 10px 20px;*/
-  color: gray;
-  /*font-size: 70%;*/
-  padding-left: 10px;
-  padding-right: 0px;
-  padding-top: 10px;
-}
-
-/*h6{*/
-  /*color: #ffffff;*/
-  /*line-height: 10%;*/
-
-/*}*/
-
-
-
-/* Chat page */
+/* Chat  */
 
 .chat.page {
-  background: url(img/bg.png) no-repeat center center fixed; 
+  background: url(img/bg.png) no-repeat center center fixed;
   background-color: #010103;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -341,7 +315,7 @@ ul {
   background-size: 64%;
 }
 
-/* Font */
+
 
 .messages {
   font-size: 130%;
@@ -354,8 +328,7 @@ ul {
 
 .inputMessage {
   font-size: 100%;
-  /*position: absolute;*/
-  /*z-index: 2;*/
+
 }
 
 .log {
@@ -365,7 +338,7 @@ ul {
   text-align: center;
 }
 
-/* Messages */
+
 
 .chatArea {
   height: 90%;
@@ -396,10 +369,9 @@ ul {
   text-align: right;
 }
 
-/* Input */
 
 .inputMessage {
-  /*border: 10px solid #000;*/
+
   bottom: 0;
   height: 40px;
   outline: none;
@@ -408,7 +380,7 @@ ul {
   float:right;
   margin-top: 5px;
   z-index: 2;
-  /*margin-right: 20px;*/
+
 }
 
 /* scrollbar */
@@ -425,7 +397,7 @@ ul {
 }
 
 /**
- * Canvas
+ * whiteboard
  */
 
 .whiteboard {
@@ -439,22 +411,23 @@ ul {
   z-index: 1;
 }
 
-/*.mission {*/
-	/*top: -50%;*/
-	/*left: 20px;*/
-	/*color: white;*/
-	/*!*position: abslute;*!*/
-	/*border-style: solid;*/
-    /*border-width: 1px;*/
-	/*border-color: #98eaf9;*/
-	/*background-color: #12181a;*/
-	/*padding-left: 10px;*/
-	/*padding-right: 0px;*/
-	/*padding-top: 10px;*/
-	/*padding-bottom: 50px;*/
-	/*font-family: future;*/
-	/*font-size: 20px;*/
-/*}*/
+
+
+/*Mission*/
+
+.mission{
+  margin-bottom: 5%;
+  height: 35%;
+  width:100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #98eaf9;
+  background-color: #12181a;
+  color: gray;
+  padding-left: 10px;
+  padding-right: 0px;
+  padding-top: 10px;
+}
 
 p{
 	font-size: 12px;
