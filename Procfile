@@ -1,1 +1,1 @@
-web: node examples/chat/index.js
+web: node game/gameapp/index.js
